@@ -1,0 +1,26 @@
+/* Basics Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #87ceeb;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #87ceeb;
+
+}
+
+/* Mario */
+#mario {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+}
