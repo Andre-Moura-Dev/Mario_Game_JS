@@ -86,13 +86,13 @@ function atualizar() {
     // Colisões com blocos e inimigos
     document.querySelectorAll('.bloco').forEach((bloco) => {
         if (detectarColisao(mario, bloco)) {
-            console.log("Colisão com o bloco!");
+            alert("Colisão com o bloco!");
         }
     });
 
     document.querySelectorAll('.inimigo').forEach((inimigo) => {
         if (detectarColisao(mario, inimigo)) {
-            console.log("Colisão com o inimigo!");
+            alert("Colisão com o inimigo!");
         }
     });
 
