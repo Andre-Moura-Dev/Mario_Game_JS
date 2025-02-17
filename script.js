@@ -46,7 +46,7 @@ document.addEventListener('keydown', (e) => {
 
 document.addEventListener('keyup', (e) => {
     if (e.code === 'ArrowRight') isMovingRight = false;
-    if (e.code === 'ArrowLeft') isMovingLeft = false;
+    if (e.code === 'ArrowLeft') isMovingLeft = true;
 
 });
 
